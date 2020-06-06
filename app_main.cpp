@@ -31,7 +31,7 @@ void appDrawScene() {
     // Draw stuff here
     
     // ---------------------------- Letter C ---------------------------------- //
-    glColor3f(250, 100, 0);
+    glColor3f(1, 0, 0);
     
     glBegin(GL_POLYGON);
     glVertex3f(-1.5, 0.8, 0);
@@ -55,8 +55,8 @@ void appDrawScene() {
     glEnd();
     
     // ---------------------------- Letter H ---------------------------------- //
-    glColor3f(250, 100, 0);
-    
+    glColor3f(1, 0, 0);
+
     glBegin(GL_POLYGON);
     glVertex3f(-0.8, 0.5, 0);
     glVertex3f(-0.8, 0.85, 0);
@@ -82,8 +82,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter R ---------------------------------- //
 
-    glColor3f(250, 100, 0);
-    
+    glColor3f(1, 0, 0);
+
     glBegin(GL_POLYGON);
     glVertex3f(-0.1, 0.5, 0);
     glVertex3f(-0.1, 0.85, 0);
@@ -139,8 +139,8 @@ void appDrawScene() {
 
     // ---------------------------- Letter I ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(1, 0, 0);
+
     glBegin(GL_POLYGON);
     glVertex3f(0.7, 0.5, 0);
     glVertex3f(0.7, 0.85, 0);
@@ -165,8 +165,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter S ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(1, 0, 0);
+
     glBegin(GL_POLYGON);
     glVertex3f(1.5, 0.8, 0);
     glVertex3f(1.5, 0.85, 0);
@@ -204,8 +204,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter A (middle initial) ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(0, 1, 0);
+
     glBegin(GL_POLYGON);
     glVertex3f(-0.1, -0.2, 0);
     glVertex3f(-0.1, 0.15, 0);
@@ -236,8 +236,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter P ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(0, 0, 1);
+
     glBegin(GL_POLYGON);
     glVertex3f(-1.5, -0.85, 0);
     glVertex3f(-1.5, -0.5, 0);
@@ -269,7 +269,7 @@ void appDrawScene() {
     
     // ---------------------------- Letter A ---------------------------------- //
     
-    glColor3f(250, 100, 0);
+    glColor3f(0, 0, 1);
 
     glBegin(GL_POLYGON);
     glVertex3f(-0.7, -0.65, 0);
@@ -302,8 +302,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter Y ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(0, 0, 1);
+
     glBegin(GL_POLYGON);
     glVertex3f(-0.20, -0.65, 0);
     glVertex3f(-0.20, -0.85, 0);
@@ -334,8 +334,8 @@ void appDrawScene() {
     
     // ---------------------------- Letter U ---------------------------------- //
     
-    glColor3f(250, 100, 0);
-    
+    glColor3f(0, 0, 1);
+
     glBegin(GL_POLYGON);
     glVertex3f(0.50, -0.8, 0);
     glVertex3f(0.50, -0.85, 0);
@@ -359,7 +359,7 @@ void appDrawScene() {
     
     // ---------------------------- Letter M ---------------------------------- //
     
-    glColor3f(250, 100, 0);
+    glColor3f(0, 0, 1);
 
     glBegin(GL_POLYGON);
     glVertex3f(0.70, -0.5, 0);
@@ -413,8 +413,8 @@ void appDrawScene() {
 
     // ---------------------------- Letter O ---------------------------------- //
 
-    glColor3f(250, 100, 0);
-    
+    glColor3f(0, 0, 1);
+
     glBegin(GL_POLYGON);
     glVertex3f(1.5, -0.8, 0);
     glVertex3f(1.5, -0.85, 0);
