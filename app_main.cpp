@@ -446,21 +446,19 @@ void appDrawScene() {
     
     ///
     
-    glColor3f(0, 1, 0);
-
-    glBegin(GL_POLYGON);
-    glVertex3f(1.00, 0.15, 0);
-    glVertex3f(1.10, 0.10, 0);
-    glVertex3f(1.00, -0.25, 0);
-    glVertex3f(0.90, -0.20, 0);
-    glEnd();
+//    glColor3f(0, 1, 0);
+//
+//    glBegin(GL_POLYGON);
+//    glVertex3f(1.00, 0.15, 0);
+//    glVertex3f(1.10, 0.10, 0);
+//    glVertex3f(1.00, -0.25, 0);
+//    glVertex3f(0.90, -0.20, 0);
+//    glEnd();
 
     
     
     ///
     
-    // test comment for push
-
     
 	// We have been drawing everything to the back buffer
 	// Swap the buffers to see the result of what we drew
