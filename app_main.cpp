@@ -99,43 +99,27 @@ void appDrawScene() {
     glEnd();
     
     glBegin(GL_POLYGON);
+    glVertex3f(0.1, 0.72, 0);
+    glVertex3f(0.1, 0.85, 0);
+    glVertex3f(0.15, 0.85, 0);
+    glVertex3f(0.15, 0.72, 0);
+    glEnd();
+    
+    glBegin(GL_POLYGON);
     glVertex3f(-0.1, 0.72, 0);
     glVertex3f(-0.1, 0.75, 0);
     glVertex3f(0.125, 0.75, 0);
     glVertex3f(0.125, 0.72, 0);
     glEnd();
     
+    // Diagonal polygon
     glBegin(GL_POLYGON);
-    glVertex3f(0.1, 0.72, 0);
-    glVertex3f(0.1, 0.85, 0);
-    glVertex3f(0.15, 0.85, 0);
-    glVertex3f(0.15, 0.72, 0);
-    glEnd();
-
-    glBegin(GL_POLYGON);
-    glVertex3f(0.10, 0.68, 0);
-    glVertex3f(0.10, 0.5, 0);
-    glVertex3f(0.15, 0.5, 0);
-    glVertex3f(0.15, 0.68, 0);
-    glEnd();
-
-    glBegin(GL_POLYGON);
-    glVertex3f(-0.10, 0.67, 0);
+    glVertex3f(-0.05, 0.73, 0);     // order of coordinates matter
     glVertex3f(-0.10, 0.70, 0);
-    glVertex3f(0.15, 0.70, 0);
-    glVertex3f(0.15, 0.67, 0);
+    glVertex3f(0.15, 0.50, 0);
+    glVertex3f(0.20, 0.53, 0);
     glEnd();
-    
-    // fix the diagonal one lol
-    // -- couldn't get diagonal polygon for now. Alternate with 8-bit style letter R
-    /*
-    glBegin(GL_POLYGON);
-    glVertex3f(-0.05, 0.65, 0);
-    glVertex3f(-0.10, 0.60, 0);
-    glVertex3f(0.15, 0.55, 0);
-    glVertex3f(0.10, 0.5, 0);
-    glEnd();
-    */
+
 
     // ---------------------------- Letter I ---------------------------------- //
     
@@ -234,6 +218,7 @@ void appDrawScene() {
     glVertex3f(0.15, 0.15, 0);
     glEnd();
     
+    
     // ---------------------------- Letter P ---------------------------------- //
     
     glColor3f(0, 0, 1);
@@ -272,33 +257,48 @@ void appDrawScene() {
     glColor3f(0, 0, 1);
 
     glBegin(GL_POLYGON);
-    glVertex3f(-0.7, -0.65, 0);
-    glVertex3f(-0.7, -0.70, 0);
+    glVertex3f(-0.65, -0.65, 0);
+    glVertex3f(-0.65, -0.70, 0);
     glVertex3f(-0.95, -0.70, 0);
     glVertex3f(-0.95, -0.65, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
+    glVertex3f(-0.70, -0.53, 0);
+    glVertex3f(-0.75, -0.55, 0);
     glVertex3f(-0.70, -0.85, 0);
-    glVertex3f(-0.70, -0.50, 0);
-    glVertex3f(-0.75, -0.50, 0);
-    glVertex3f(-0.75, -0.85, 0);
+    glVertex3f(-0.65, -0.83, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
     glVertex3f(-0.90, -0.85, 0);
-    glVertex3f(-0.90, -0.50, 0);
-    glVertex3f(-0.95, -0.50, 0);
-    glVertex3f(-0.95, -0.85, 0);
+    glVertex3f(-0.85, -0.55, 0);
+    glVertex3f(-0.90, -0.53, 0);
+    glVertex3f(-0.95, -0.83, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
     glVertex3f(-0.7, -0.50, 0);
     glVertex3f(-0.7, -0.55, 0);
-    glVertex3f(-0.95, -0.55, 0);
-    glVertex3f(-0.95, -0.50, 0);
+    glVertex3f(-0.9, -0.55, 0);
+    glVertex3f(-0.9, -0.50, 0);
     glEnd();
     
+    /* -- // diagonal polygons
+    glBegin(GL_POLYGON);
+    glVertex3f(-0.10, 0.15, 0);
+    glVertex3f(-0.05, 0.11, 0);
+    glVertex3f(-0.1, -0.25, 0);
+    glVertex3f(-0.15, -0.21, 0);
+    glEnd();
+    
+    glBegin(GL_POLYGON);
+    glVertex3f(0.15, 0.15, 0);
+    glVertex3f(0.10, 0.11, 0);
+    glVertex3f(0.15, -0.25, 0);
+    glVertex3f(0.20, -0.21, 0);
+    glEnd();
+    */
     
     // ---------------------------- Letter Y ---------------------------------- //
     
