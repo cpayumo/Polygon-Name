@@ -54,7 +54,6 @@ void appDrawScene() {
     glVertex3f(-1.25, 0.5, 0);
     glEnd();
     
-    
     // ---------------------------- Letter H ---------------------------------- //
     glColor3f(1, 0, 0);
 
@@ -78,8 +77,6 @@ void appDrawScene() {
     glVertex3f(-0.55, 0.85, 0);
     glVertex3f(-0.55, 0.5, 0);
     glEnd();
-    
-    
     
     // ---------------------------- Letter R ---------------------------------- //
 
@@ -121,7 +118,6 @@ void appDrawScene() {
     glVertex3f(0.20, 0.53, 0);
     glEnd();
 
-
     // ---------------------------- Letter I ---------------------------------- //
     
     glColor3f(1, 0, 0);
@@ -146,7 +142,6 @@ void appDrawScene() {
     glVertex3f(0.85, 0.55, 0);
     glVertex3f(0.85, 0.5, 0);
     glEnd();
-    
     
     // ---------------------------- Letter S ---------------------------------- //
     
@@ -219,7 +214,6 @@ void appDrawScene() {
     glVertex3f(0.15, 0.15, 0);
     glEnd();
     
-    
     // ---------------------------- Letter P ---------------------------------- //
     
     glColor3f(0, 0, 1);
@@ -252,7 +246,6 @@ void appDrawScene() {
     glVertex3f(-1.35, -0.7, 0);
     glEnd();
     
-    
     // ---------------------------- Letter A ---------------------------------- //
     
     glColor3f(0, 0, 1);
@@ -284,7 +277,6 @@ void appDrawScene() {
     glVertex3f(-0.9, -0.55, 0);
     glVertex3f(-0.9, -0.50, 0);
     glEnd();
-    
     
     // ---------------------------- Letter Y ---------------------------------- //
     
@@ -325,8 +317,8 @@ void appDrawScene() {
     glBegin(GL_POLYGON);
     glVertex3f(0.40, -0.8, 0);
     glVertex3f(0.40, -0.85, 0);
-    glVertex3f(0.10, -0.85, 0);
-    glVertex3f(0.10, -0.8, 0);
+    glVertex3f(0.15, -0.85, 0);
+    glVertex3f(0.15, -0.8, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
@@ -337,66 +329,43 @@ void appDrawScene() {
     glEnd();
 
     glBegin(GL_POLYGON);
-    glVertex3f(0.10, -0.5, 0);
-    glVertex3f(0.10, -0.85, 0);
-    glVertex3f(0.15, -0.85, 0);
     glVertex3f(0.15, -0.5, 0);
+    glVertex3f(0.15, -0.85, 0);
+    glVertex3f(0.20, -0.85, 0);
+    glVertex3f(0.20, -0.5, 0);
     glEnd();
-    
     
     // ---------------------------- Letter M ---------------------------------- //
     
     glColor3f(0, 0, 1);
 
     glBegin(GL_POLYGON);
-    glVertex3f(0.70, -0.5, 0);
+    glVertex3f(0.70, -0.50, 0);
+    glVertex3f(0.65, -0.85, 0);
     glVertex3f(0.70, -0.85, 0);
-    glVertex3f(0.75, -0.85, 0);
-    glVertex3f(0.75, -0.5, 0);
+    glVertex3f(0.75, -0.50, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
-    glVertex3f(1.00, -0.5, 0);
+    glVertex3f(0.90, -0.50, 0);
+    glVertex3f(0.85, -0.70, 0);
+    glVertex3f(0.90, -0.70, 0);
+    glVertex3f(0.95, -0.50, 0);
+    glEnd();
+    
+    glBegin(GL_POLYGON);
+    glVertex3f(0.95, -0.50, 0);
     glVertex3f(1.00, -0.85, 0);
     glVertex3f(1.05, -0.85, 0);
-    glVertex3f(1.05, -0.5, 0);
+    glVertex3f(1.00, -0.50, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
-    glVertex3f(0.70, -0.5, 0);
-    glVertex3f(0.70, -0.55, 0);
-    glVertex3f(0.85, -0.55, 0);
-    glVertex3f(0.85, -0.5, 0);
+    glVertex3f(0.75, -0.50, 0);
+    glVertex3f(0.80, -0.70, 0);
+    glVertex3f(0.85, -0.70, 0);
+    glVertex3f(0.80, -0.50, 0);
     glEnd();
-    
-    glBegin(GL_POLYGON);
-    glVertex3f(0.90, -0.5, 0);
-    glVertex3f(0.90, -0.55, 0);
-    glVertex3f(1.05, -0.55, 0);
-    glVertex3f(1.05, -0.5, 0);
-    glEnd();
-    
-    glBegin(GL_POLYGON);
-    glVertex3f(0.80, -0.5, 0);
-    glVertex3f(0.80, -0.65, 0);
-    glVertex3f(0.85, -0.65, 0);
-    glVertex3f(0.85, -0.5, 0);
-    glEnd();
-    
-    glBegin(GL_POLYGON);
-    glVertex3f(0.90, -0.5, 0);
-    glVertex3f(0.90, -0.65, 0);
-    glVertex3f(0.95, -0.65, 0);
-    glVertex3f(0.95, -0.5, 0);
-    glEnd();
-    
-    glBegin(GL_POLYGON);
-    glVertex3f(0.85, -0.6, 0);
-    glVertex3f(0.85, -0.65, 0);
-    glVertex3f(0.95, -0.65, 0);
-    glVertex3f(0.95, -0.6, 0);
-    glEnd();
-    
 
     // ---------------------------- Letter O ---------------------------------- //
 
@@ -429,29 +398,6 @@ void appDrawScene() {
     glVertex3f(1.25, -0.55, 0);
     glVertex3f(1.25, -0.5, 0);
     glEnd();
-
-    
-    ///
-    
-    glColor3f(0, 1, 0);
-    glBegin(GL_POLYGON);
-    glVertex3f(1.00, 0.15, 0);
-    glVertex3f(1.05, 0.11, 0);
-    glVertex3f(1.00, -0.25, 0);
-    glVertex3f(0.95, -0.21, 0);
-    glEnd();
-    
-    glColor3f(0, 1, 0);
-    glBegin(GL_POLYGON);
-    glVertex3f(1.20, 0.15, 0);
-    glVertex3f(1.15, 0.11, 0);
-    glVertex3f(1.20, -0.25, 0);
-    glVertex3f(1.25, -0.21, 0);
-    glEnd();
-
-    
-    
-    ///
     
 	// We have been drawing everything to the back buffer
 	// Swap the buffers to see the result of what we drew
