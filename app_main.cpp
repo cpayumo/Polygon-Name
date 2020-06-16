@@ -54,6 +54,7 @@ void appDrawScene() {
     glVertex3f(-1.25, 0.5, 0);
     glEnd();
     
+    
     // ---------------------------- Letter H ---------------------------------- //
     glColor3f(1, 0, 0);
 
@@ -284,21 +285,6 @@ void appDrawScene() {
     glVertex3f(-0.9, -0.50, 0);
     glEnd();
     
-    /* -- // diagonal polygons
-    glBegin(GL_POLYGON);
-    glVertex3f(-0.10, 0.15, 0);
-    glVertex3f(-0.05, 0.11, 0);
-    glVertex3f(-0.1, -0.25, 0);
-    glVertex3f(-0.15, -0.21, 0);
-    glEnd();
-    
-    glBegin(GL_POLYGON);
-    glVertex3f(0.15, 0.15, 0);
-    glVertex3f(0.10, 0.11, 0);
-    glVertex3f(0.15, -0.25, 0);
-    glVertex3f(0.20, -0.21, 0);
-    glEnd();
-    */
     
     // ---------------------------- Letter Y ---------------------------------- //
     
@@ -337,25 +323,26 @@ void appDrawScene() {
     glColor3f(0, 0, 1);
 
     glBegin(GL_POLYGON);
-    glVertex3f(0.50, -0.8, 0);
-    glVertex3f(0.50, -0.85, 0);
-    glVertex3f(0.25, -0.85, 0);
-    glVertex3f(0.25, -0.8, 0);
+    glVertex3f(0.40, -0.8, 0);
+    glVertex3f(0.40, -0.85, 0);
+    glVertex3f(0.10, -0.85, 0);
+    glVertex3f(0.10, -0.8, 0);
     glEnd();
     
     glBegin(GL_POLYGON);
-    glVertex3f(0.25, -0.5, 0);
-    glVertex3f(0.25, -0.85, 0);
-    glVertex3f(0.30, -0.85, 0);
-    glVertex3f(0.30, -0.5, 0);
+    glVertex3f(0.40, -0.50, 0);
+    glVertex3f(0.40, -0.85, 0);
+    glVertex3f(0.45, -0.85, 0);
+    glVertex3f(0.45, -0.50, 0);
     glEnd();
 
     glBegin(GL_POLYGON);
-    glVertex3f(0.45, -0.5, 0);
-    glVertex3f(0.45, -0.85, 0);
-    glVertex3f(0.50, -0.85, 0);
-    glVertex3f(0.50, -0.5, 0);
+    glVertex3f(0.10, -0.5, 0);
+    glVertex3f(0.10, -0.85, 0);
+    glVertex3f(0.15, -0.85, 0);
+    glVertex3f(0.15, -0.5, 0);
     glEnd();
+    
     
     // ---------------------------- Letter M ---------------------------------- //
     
